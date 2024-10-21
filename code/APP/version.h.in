@@ -1,0 +1,6 @@
+﻿
+#define GIMBAL_VERSION "@git_tag@"
+
+#define BUILD_DATE "@DATE@"
+
+#define PROJECT_NAME "@PROJECT_NAME@"

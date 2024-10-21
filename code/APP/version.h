@@ -1,0 +1,6 @@
+﻿
+#define GIMBAL_VERSION "0.03.0"
+
+#define BUILD_DATE "2023_11_07"
+
+#define PROJECT_NAME "GBA_POWERCONTROL"
