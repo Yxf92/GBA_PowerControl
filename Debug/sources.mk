@@ -21,7 +21,6 @@ C_DEPS :=
 SUBDIRS := \
 cmsis \
 code/APP \
-code/Instruction \
 code/communication \
 code/mcu_drive \
 firmware \

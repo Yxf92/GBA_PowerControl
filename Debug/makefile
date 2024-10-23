@@ -11,7 +11,6 @@ RM := rm -rf
 -include firmware/subdir.mk
 -include code/mcu_drive/subdir.mk
 -include code/communication/subdir.mk
--include code/Instruction/subdir.mk
 -include code/APP/subdir.mk
 -include cmsis/subdir.mk
 -include subdir.mk

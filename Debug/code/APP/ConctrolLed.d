@@ -31,7 +31,6 @@ code/APP/ConctrolLed.o: ../code/APP/ConctrolLed.c \
  E:\at_workspace\GBA_PowerControl\code\mcu_drive/dac.h \
  E:\at_workspace\GBA_PowerControl\code\mcu_drive/adc.h \
  E:\at_workspace\GBA_PowerControl\code\mcu_drive/wdt.h \
- E:\at_workspace\GBA_PowerControl\code\Instruction/PCDataConvert.h \
  ../code/APP/Tasksch.h
 ../include/libraries/cmsis/cm4/device_support/at32f423.h:
 ../include/libraries/cmsis/cm4/core_support/core_cm4.h:
@@ -66,5 +65,4 @@ E:\at_workspace\GBA_PowerControl\code\mcu_drive/flash.h:
 E:\at_workspace\GBA_PowerControl\code\mcu_drive/dac.h:
 E:\at_workspace\GBA_PowerControl\code\mcu_drive/adc.h:
 E:\at_workspace\GBA_PowerControl\code\mcu_drive/wdt.h:
-E:\at_workspace\GBA_PowerControl\code\Instruction/PCDataConvert.h:
 ../code/APP/Tasksch.h:

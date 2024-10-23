@@ -44,7 +44,7 @@ C_DEPS += \
 code/mcu_drive/%.o: ../code/mcu_drive/%.c code/mcu_drive/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: GNU Arm Cross C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -DAT_START_F423_V1 -DAT32F423KCU7_4 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -I"E:\at_workspace\GBA_PowerControl\code\APP" -I"E:\at_workspace\GBA_PowerControl\code\communication" -I"E:\at_workspace\GBA_PowerControl\code\Instruction" -I"E:\at_workspace\GBA_PowerControl\code\mcu_drive" -I"E:\at_workspace\GBA_PowerControl\code\MAVLINK2" -I"E:\at_workspace\GBA_PowerControl\code\MAVLINK2\common" -I"E:\at_workspace\GBA_PowerControl\code\MAVLINK2\goertek" -I"E:\at_workspace\GBA_PowerControl\code\MAVLINK2\minimal" -I"E:\at_workspace\GBA_PowerControl\code\MAVLINK2\standard" -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -DAT_START_F423_V1 -DAT32F423KCU7_4 -DUSE_STDPERIPH_DRIVER -I"../include" -I"../include/libraries/drivers/inc" -I"../include/libraries/cmsis/cm4/core_support" -I"../include/libraries/cmsis/cm4/device_support" -I"E:\at_workspace\GBA_PowerControl\code\APP" -I"E:\at_workspace\GBA_PowerControl\code\communication" -I"E:\at_workspace\GBA_PowerControl\code\mcu_drive" -std=c99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

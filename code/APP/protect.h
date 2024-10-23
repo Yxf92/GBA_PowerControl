@@ -7,4 +7,6 @@ extern float Volbus, V3bus;
 
 void TPS54302_Set_VBAT(uint8_t mode);
 void PROTECT_Loop(void);
+void ReadVolData(void);
+void Voltage_monitor(void);
 #endif

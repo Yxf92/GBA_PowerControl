@@ -31,10 +31,8 @@ code/APP/Loop.o: ../code/APP/Loop.c ../code/APP/main.h \
  E:\at_workspace\GBA_PowerControl\code\mcu_drive/adc.h \
  E:\at_workspace\GBA_PowerControl\code\mcu_drive/wdt.h \
  E:\at_workspace\GBA_PowerControl\code\mcu_drive/delay.h \
- E:\at_workspace\GBA_PowerControl\code\Instruction/PCDataConvert.h \
  ../include/libraries/cmsis/cm4/core_support/arm_math.h \
  E:\at_workspace\GBA_PowerControl\code\communication/ComTask.h \
- e:\at_workspace\gba_powercontrol\code\mavlink2\mavlink_types.h \
  ../code/APP/Tasksch.h \
  E:\at_workspace\GBA_PowerControl\code\communication/DebugData.h \
  E:\at_workspace\GBA_PowerControl\code\communication/Communication.h \
@@ -73,10 +71,8 @@ E:\at_workspace\GBA_PowerControl\code\mcu_drive/dac.h:
 E:\at_workspace\GBA_PowerControl\code\mcu_drive/adc.h:
 E:\at_workspace\GBA_PowerControl\code\mcu_drive/wdt.h:
 E:\at_workspace\GBA_PowerControl\code\mcu_drive/delay.h:
-E:\at_workspace\GBA_PowerControl\code\Instruction/PCDataConvert.h:
 ../include/libraries/cmsis/cm4/core_support/arm_math.h:
 E:\at_workspace\GBA_PowerControl\code\communication/ComTask.h:
-e:\at_workspace\gba_powercontrol\code\mavlink2\mavlink_types.h:
 ../code/APP/Tasksch.h:
 E:\at_workspace\GBA_PowerControl\code\communication/DebugData.h:
 E:\at_workspace\GBA_PowerControl\code\communication/Communication.h:

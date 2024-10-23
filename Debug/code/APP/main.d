@@ -38,7 +38,6 @@ code/APP/main.o: ../code/APP/main.c ../include/at32f423_clock.h \
  ../code/APP/McuDriveInit.h \
  E:\at_workspace\GBA_PowerControl\code\communication/CircleBuffer.h \
  E:\at_workspace\GBA_PowerControl\code\communication/CBUF.h \
- E:\at_workspace\GBA_PowerControl\code\Instruction/PCDataConvert.h \
  ../code/APP/protect.h
 ../include/at32f423_clock.h:
 ../include/libraries/cmsis/cm4/device_support/at32f423.h:
@@ -83,5 +82,4 @@ E:\at_workspace\GBA_PowerControl\code\communication/Communication.h:
 ../code/APP/McuDriveInit.h:
 E:\at_workspace\GBA_PowerControl\code\communication/CircleBuffer.h:
 E:\at_workspace\GBA_PowerControl\code\communication/CBUF.h:
-E:\at_workspace\GBA_PowerControl\code\Instruction/PCDataConvert.h:
 ../code/APP/protect.h:

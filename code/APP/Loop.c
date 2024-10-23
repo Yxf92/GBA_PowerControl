@@ -2,7 +2,6 @@
 #include "main.h"
 #include "delay.h"
 #include "math.h"
-#include "PCDataConvert.h"
 #include "arm_math.h"
 #include "ComTask.h"
 #include "Tasksch.h"
@@ -13,8 +12,6 @@
 #include "Tasksch.h"
 #include "target.h"
 #include "protect.h"
-
-extern uint32_t start_cnt;
 
 uint16_t mainlooptime, mainlooptimebase;
 
@@ -40,5 +37,6 @@ void ControlLoop2(void)
     TaskCount(); // 任务调度时间计数
     if (Main_Loop_Start)
     {
-    }    mainlooptime = Get_us() - mainlooptimebase;
+    }
+    mainlooptime = Get_us() - mainlooptimebase;
 }

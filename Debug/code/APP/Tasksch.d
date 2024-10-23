@@ -21,7 +21,6 @@ code/APP/Tasksch.o: ../code/APP/Tasksch.c \
  ../include/libraries/drivers/inc/at32f423_wdt.h \
  ../include/libraries/drivers/inc/at32f423_misc.h ../code/APP/Tasksch.h \
  E:\at_workspace\GBA_PowerControl\code\communication/ComTask.h \
- e:\at_workspace\gba_powercontrol\code\mavlink2\mavlink_types.h \
  E:\at_workspace\GBA_PowerControl\code\communication/DebugData.h \
  E:\at_workspace\GBA_PowerControl\code\APP/main.h \
  E:\at_workspace\GBA_PowerControl\code\mcu_drive/target.h \
@@ -57,7 +56,6 @@ code/APP/Tasksch.o: ../code/APP/Tasksch.c \
 ../include/libraries/drivers/inc/at32f423_misc.h:
 ../code/APP/Tasksch.h:
 E:\at_workspace\GBA_PowerControl\code\communication/ComTask.h:
-e:\at_workspace\gba_powercontrol\code\mavlink2\mavlink_types.h:
 E:\at_workspace\GBA_PowerControl\code\communication/DebugData.h:
 E:\at_workspace\GBA_PowerControl\code\APP/main.h:
 E:\at_workspace\GBA_PowerControl\code\mcu_drive/target.h:
