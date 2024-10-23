@@ -10,9 +10,6 @@
 #include "Tasksch.h"
 #include "CircleBuffer.h"
 
-extern float camerazoom;
-extern uint32_t cameradzoom;
-
 const uint16_t MESSAGE_NEED_RESEND[17] =
     {
         MAVLINK_MSG_ID_HEARTBEAT,
@@ -72,7 +69,6 @@ void send_command_ack_in_progress(uint16_t cmd, mavlink_channel_t chan, uint8_t 
     mavlink_msg_command_ack_send(chan, cmd, MAV_RESULT_IN_PROGRESS, progress, type, 0, 0);
 }
 
-extern const char AppName[];
 extern void send_autopilot_capabilities(mavlink_channel_t chan)
 {
 }

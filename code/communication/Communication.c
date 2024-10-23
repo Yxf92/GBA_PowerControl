@@ -9,7 +9,6 @@
 mavlink_rc_channels_override_t RAW_RC_CHAN;
 
 static bool _initialised0 = false;
-static bool _initialised1 = false;
 
 extern uint8_t transmission_flag;
 

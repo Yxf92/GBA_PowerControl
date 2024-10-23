@@ -63,7 +63,7 @@ main-build: GBA_PowerControl.elf secondary-outputs
 GBA_PowerControl.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU Arm Cross C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -T "E:\at_workspace\GBA_PowerControl/ldscripts/AT32F423xC_FLASH.ld" -Xlinker --gc-sections -Xlinker -print-memory-usage -Wl,-Map,"GBA_PowerControl.map" --specs=nano.specs --specs=nosys.specs -o "GBA_PowerControl.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -ffunction-sections  -g -T "E:\at_workspace\GBA_PowerControl/ldscripts/AT32F423xC_FLASH.ld" -Xlinker --gc-sections -Xlinker --print-memory-usage -Wl,-Map,"GBA_PowerControl.map" --specs=nano.specs --specs=nosys.specs -o "GBA_PowerControl.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

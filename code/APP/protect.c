@@ -111,6 +111,7 @@ void PROTECT_Loop(void)
         EN_3V_SET;
         GBA_State.Dc_state = Dc_Vin;
         GBA_State.Error_flag = No_error;
+        GB_LED_ON;
         SET_LedMod(PURPLEON, 50, -1);
     }
     else if (Volbus >= 6.0 && Volbus <= 8.3 && GBA_State.Dc_state == NC_Vin)
@@ -120,6 +121,7 @@ void PROTECT_Loop(void)
         EN_3V_SET;
         GBA_State.Dc_state = Bat_Vin;
         GBA_State.Error_flag = No_error;
+        GB_LED_ON;
         SET_LedMod(GREENON, 50, -1);
     }
 
